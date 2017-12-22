@@ -1,8 +1,103 @@
 /* RESET */
 
+*{
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+  }
 
-/* Typical */
 
 
 
-/* MEDIA QUERIES */
+/* Typical CSS */
+
+.cover_1of8{
+    width: 12.5%;
+    background-color: red;
+}
+
+.cover_2of8{
+    width: 24%;
+    background-color: red;
+
+}
+
+.cover_3of8{
+    width: 37.5%;
+    background-color: red;
+}
+
+.cover_4of8{
+    width: 50%;
+    background-color: red;
+}
+
+.cover_5of8{
+    width: 62.5%;
+    background-color: red;
+
+}
+
+.cover_6of8{
+    width: 75%;
+    background-color: red;
+}
+
+.cover_7of8{
+    width: 87.5%;
+    background-color: red;
+
+}
+
+.cover_8of8{
+    width: 100%;
+    background-color: red;
+
+}
+
+.col{
+    margin: 0% 1% 0% 1%;
+    display: block;
+    float: left;
+}
+
+.col:first-child{
+ margin-left: 0%;
+}
+
+
+
+/* MEDIA QUERIES 
+------------------------------------------
+  Responsive Grid Media Queries - 1280, 1024, 768, 480
+   1280-1024   - desktop (default grid)
+   1024-768    - tablet landscape
+   768-480     - tablet 
+   480-less    - phone landscape & smaller
+--------------------------------------------*/
+@media all and (min-width: 1024px) and (max-width: 1280px) { }
+
+@media all and (min-width: 768px) and (max-width: 1024px) { }
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+   
+ }
+
+@media all and (max-width: 480px) {
+
+
+    .cover_1of8
+    .cover_2of8
+    .cover_3of8
+    .cover_4of8
+    .cover_5of8
+    .cover_6of8
+    .cover_7of8
+    .cover_8of8{
+        width:100%;
+    }
+    
+ }
