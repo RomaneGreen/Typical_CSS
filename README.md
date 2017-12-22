@@ -1,1 +1,3 @@
-A GRID BASED CSS  FRAMEWORK DESIGNED TO EASILY MAKE TYPICAL WEBPAGES THAT INCLUDE A MENU/NAVIGATION, A MAIN ARTICLE/SECTION ADDITIONAL SMALLER ARTICLES/SECTIONS AND A FOOTER.FULLY RESPONSIVE WITH MEDIA QUERIES AND A CSS RESET INCLUDED.
+
+
+A dynamic grid based CSS Framework designed to easily make typical webpages that include a menu/navigation, a main article/section and additional smaller articles/Sections and a footer.Fully responsive with media queries and a custom css reset included.
